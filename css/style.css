@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* 
+.bg{
+    background: url(../background.png) no-repeat center center fixed;
+    background-size: cover;
+    background-color: #001210;
+} */
+
+h1{
+    text-align: center;
+    font-weight: 300;
+    margin-top: 10%;
+}
+h2{
+    text-align: center;
+    color: #b3b3b3;
+    font-weight: 300;
+    margin-bottom: 10%;
+}
+.deg{
+    text-align: center;
+    font-weight: 300;
+    font-size: 250%;
+}
+.card img{
+    width: 22%;
+    margin: 0 39%;
+}
+.container{
+    width: 70%;
+    margin: 5% 15%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.details{
+    text-align: center;
+    font-family:'Almadinah1 Light', sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+}
+.details span{
+    color: #b3b3b3;
+}
+.details:first-child{
+    border-right: 2px solid #fcfcfc;
+}
+.card{
+    
+    height: 60%; 
+    width: 24%;
+    background-color: rgba(255,255,255,0.06);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    font-family: 'Almadinah3 Bold',sans-serif;
+    color: #fcfcfc;
+}
+@media only screen and (max-width: 600px) {
+    .card{
+height: 65%;
+    width: 65%;
+    }
+}
+
+/* min-width: 480px */
